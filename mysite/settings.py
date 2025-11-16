@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "mycmdb",
+        'NAME': "cmdb",
         'USER': "cmdbuser",
-        'PASSWORD': "admin12345",
+        'PASSWORD': "Admin12345",
         'HOST': "127.0.0.1",
         'PORT': "3306",
         'OPTIONS': {
