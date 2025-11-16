@@ -6,5 +6,5 @@ def index(request):
     return HttpResponse("Hello! You're at the index.")
 
 def mycmdb(request):
-    return HttpResponse("Hello! You're at the mycmdb.")
+    return HttpResponse("Hello! You're at the mycmdb page.")
 
