@@ -12,7 +12,7 @@ class Host(models.Model):
         return self.hostname
 
     class Meta:
-        db_table = "Host"
+        db_table = "mycmdb_host"
         ordering = ["hostname"]
         verbose_name = "Equipment"
         verbose_name_plural = "Equipment List"
